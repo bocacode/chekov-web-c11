@@ -28,10 +28,13 @@ export default function AddTodo({ setTodoItems }) {
   }
 
   return (
-    <section>
-      <form onSubmit={addNewItem}>
-        <input type="text" name="todo" placeholder="New Todo Item" />
-        <input type="submit" value="Add" />
+    <section className="w-full container bg-violet-950 rounded-lg shadow p-4 mx-auto">
+      <form onSubmit={addNewItem} className="flex">
+        <input type="text" name="todo" placeholder="New Todo Item"
+          className="rounded-lg border border-zinc-300 w-full py-2 px-4
+            bg-zinc-50 text-zinc-700 placeholder-zinc-400 text-base flex-1" />
+        <input type="submit" value="Add" className="flex-shrink-0 px-4 py-2 font-semibold
+          text-zinc-50 bg-violet-600 rounded-lg shadow hover:bg-violet-700 ml-2" />
       </form>
     </section>
   )

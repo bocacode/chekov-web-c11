@@ -62,7 +62,7 @@ export default function LoginForm() {
           rounded-lg shadow-lg transition duration-300 hover:bg-violet-300 hover:shadow-sm
           cursor-pointer w-full" />
       </form>
-      <button onClick={handleGoogle} className="bg-sky-300 text-violet-950 py-2 px-8
+      <button onClick={handleGoogle} className="mt-4 bg-sky-300 text-violet-950 py-2 px-8
           rounded-lg shadow-lg transition duration-300 hover:bg-violet-300 hover:shadow-sm
           cursor-pointer">Login with Google</button>
     </section>
